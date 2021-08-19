@@ -1,18 +1,27 @@
 html {
   scroll-behavior: smooth;
 }
-.jumbotron {
+
+#struktur img {
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+#jumbotron,
+#visimisi,
+#contact,
+#struktur,
+#tagline {
   padding-top: 6rem;
 }
 
-.jumbotron,
+#jumbotron img {
+  width: 120px;
+}
+
+#jumbotron,
 #visimisi,
 #contact {
   background-color: #666;
-}
-
-section {
-  padding-top: 6rem;
 }
 
 #struktur img {
@@ -22,8 +31,7 @@ section {
 }
 
 .card img {
-  width: 200px;
-  height: 200px;
+  width: 60%;
 }
 
 .card {
